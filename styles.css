@@ -1,0 +1,92 @@
+* {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+}
+@media (max-width: 767px) {
+
+#heading {
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	margin-left: 80%;
+	text-align: center;
+	background-color: lightpink;
+	padding: 2px;
+}
+section {
+	margin: 10px;
+	text-align: left;
+	margin: auto;
+	margin-bottom: 20px;
+	background-color: skyblue;
+	color: ghostwhite;
+	border: 3px solid black;
+}
+}
+@media (min-width:768px) and (max-width:991px) {
+
+	#heading {
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	margin-left: 80%;
+	text-align: center;
+	background-color: lightpink;
+	padding: 2px;
+	}
+
+	section {
+	margin-left: 10px;
+	width: 47%;
+	text-align: left;
+	margin-bottom: 20px;
+	background-color: skyblue;
+	color: ghostwhite;
+	border: 3px solid black;
+	}
+
+	#section1 {
+		position: rel;
+		float: right;
+	}
+
+	#section3 {
+		width: 98.5%;
+	}
+
+	div {
+	padding: 2px;
+	}
+}
+@media (min-width:992px) {
+
+	#heading {
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	margin-left: 80%;
+	text-align: center;
+	background-color: lightpink;
+	padding: 2px;
+	}
+
+	section {
+	position: absolute;
+	margin-: auto;
+	width: 30%;
+	text-align: left;
+	background-color: skyblue;
+	color: ghostwhite;
+	border: 3px solid black;
+	
+	}
+
+	#section1 {right: 1%}
+
+	#section2 {left: 35%}
+
+
+}
+
